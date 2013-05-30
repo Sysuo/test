@@ -9,6 +9,9 @@ print("hello" + " " + "world")
 for i in range(10):
     print("num:" +str(i))
 
+print("test")
+
+
 # これなんだ？
 if __name__ == '__main__':
     pass

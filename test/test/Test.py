@@ -6,11 +6,22 @@ Created on 2013/05/30
 
 print("hello" + " " + "world")
 
-for i in range(10):
+words = ['a', 'b', 'c', '', "d"]
+
+for i in words:
+    if i == '':
+        break
     print("num:" +str(i))
 
-print("test")
+print(len("test"))
 
+while True:
+    break
+
+def MethodA(arg):
+    print("i am MethodA.")
+
+MethodA(0)
 
 # これなんだ？
 if __name__ == '__main__':

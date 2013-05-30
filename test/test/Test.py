@@ -20,8 +20,23 @@ while True:
 
 def MethodA(arg):
     print("i am MethodA.")
+    return lambda a: 1 * 10
+
+# これはダメ
+#printHogeHoge()
 
 MethodA(0)
+
+def printHogeHoge():
+    """
+    これらの文字列は
+    どう出るのか
+    気になる。
+    ドキュメンテーション文字列
+    """
+
+# これはOK
+printHogeHoge()
 
 # これなんだ？
 if __name__ == '__main__':
